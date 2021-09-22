@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <GenerateRuntimeConfigurationFiles>True</GenerateRuntimeConfigurationFiles>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.2.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PROJUR.Aplicacao\PROJUR.Aplicacao.csproj" />
+    <ProjectReference Include="..\PROJUR.Core\PROJUR.Dominio.Core.csproj" />
+    <ProjectReference Include="..\PROJUR.Dominio.Servico\PROJUR.Dominio.Servico.csproj" />
+    <ProjectReference Include="..\PROJUR.Dominio\PROJUR.Dominio.csproj" />
+  </ItemGroup>
+
+</Project>

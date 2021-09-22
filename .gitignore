@@ -1,0 +1,14 @@
+repos/PROJUR.API/bin/
+repos/PROJUR.API/obj/
+repos/PROJUR.Aplicacao/obj/
+repos/PROJUR.Aplicacao/bin/
+repos/PROJUR.Core/obj/
+repos/PROJUR.Dominio.Servico/bin/
+repos/PROJUR.Dominio.Servico/obj/
+repos/PROJUR.Dominio/obj/
+repos/PROJUR.Infra/bin/
+repos/PROJUR.Infra/obj/
+repos/PROJUR-TesteTécnico/.vs/
+repos/PROJUR-TesteTécnico/obj/
+repos/PROJUR.Dominio/bin/
+repos/PROJUR.Core/bin/
